@@ -1,0 +1,71 @@
+body {
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+#logo {
+  height: 150px;
+  width: 133px;
+  margin-left: -4px;
+  overflow: hidden;
+  background-color: white;
+}
+
+#logo img {
+  margin-top: 45px;
+  margin-left: -20px;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.navbar-nav {
+  margin-inline-start: 150px;
+  height: 100px;
+}
+
+.nav-text {
+  margin-top: -13px;
+  text-align: center;
+}
+
+a.nav-link {
+  color: black;
+}
+
+a.nav-link img {
+  margin-top: 10px;
+}
+
+.bi-three-dots-vertical {
+  font-size: 22px;
+}
+
+main {
+  height: 119vh;
+  margin-top: -260px;
+  background: linear-gradient(to bottom,rgba(0,0,0,0) 60%,rgb(0,0,0) 100%), url("https://assets-v2.porsche.com/-/media/Project/PCOM/SharedSite/Banner-Rotation---Archive/Motorsport/2023---KW07---Rennsport-Reunion.jpg?rev=-1&extension=webp&w=1760");
+  background-size: cover;
+}
+
+.headline {
+  margin-top: 90vh;
+  position: absolute;
+  width: 100vw;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+  color: white;
+}
+
+.headline h1 {
+  font-size: 55px;
+}
+
+.headline h2 {
+  font-weight: normal;
+  font-size: 35px;
+}
